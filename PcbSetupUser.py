@@ -90,6 +90,8 @@ pcb_dir = os.path.dirname(pcb_file)
 pcb_name =  os.path.basename(pcb_file)
 #print("Dir:{0:s}   Name:{1:s}\n").format(pcb_dir, pcb_name)
 
+#作業ディレクトリを記憶
+now_dir = os.getcwd() 
 #作業ディレクトリを今実行しているディレクトリへ移動
 os.chdir(pcb_dir)
 
@@ -111,4 +113,7 @@ PcbSetup_Append(txt, pcb_file, True)
 #
 #第三引数が'False'の場合は、ファイルに既にユーザ設定が書かれていても、追記処理。
 #PcbSetup_Append(txt, pcb_file, False)
+
+#作業ディレクトリを元に戻す
+os.chdir(now_dir)
 
