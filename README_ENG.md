@@ -1,8 +1,8 @@
-#About "PcbSetupUser"  
+# About "PcbSetupUser"  
 
 
 
-##A. Overview  
+## A. Overview  
 
 + "PcbSetupUser.py" is a macro program that runs on the PC design software Pcbnew of KiCADv4, and adds the user setting of the specified reference file to the board file on which the macro is running.
 
@@ -14,7 +14,7 @@
 
 ## C. Confirmation environment 
 
-+ KiCAD Ver 4.07 on Windows 7-64 bit / Ubuntu14.04LTS-64 bit
++ KiCAD Ver 4.07 on Windows7-64bit / Ubuntu14.04LTS-64bit
 
 
 ## D. Usage 
